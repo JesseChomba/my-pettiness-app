@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { AlertCircle } from 'lucide-react'; // Assuming lucide-react is available
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
     const [grievance, setGrievance] = useState('');
@@ -153,6 +154,7 @@ const App = () => {
 
     return (
         <div className="min-h-screen bg-gradient-to-r from-purple-400 to-pink-500 flex flex-col items-center justify-center p-4 font-inter text-gray-800">
+            <Analytics />
             <div className="max-w-2xl mx-auto w-full">
                 <h1 className="text-5xl font-bold text-center mb-2 text-[#45260C]">
 
