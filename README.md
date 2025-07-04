@@ -4,6 +4,8 @@ Ever wondered if your daily frustrations are legitimate or just a tad... petty? 
 
 This fun, single-page React application takes your grievances, sends them to the Google Gemini API for a humorous analysis, and gives you a "pettiness score" from 0 to 100, complete with a witty judgment and some questionable advice. (Note this was Heavily and i mean heavily inspired by an Artifact on Claude, but I made some changes to the theme and of course the model used since I don't have the 🤑💵 to pay for a claude API key)
 
+Check out a fully working version of it deployed to vercel on: https://my-pettiness-app.vercel.app/
+
 ## Features
 
 *   **AI-Powered Analysis:** Leverages the Google Gemini API to provide unique and humorous feedback on any grievance.
